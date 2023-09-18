@@ -1,5 +1,7 @@
 package src;
 
+import java.security.PrivilegedAction;
+
 public class EjemploStringMetodosArreglos {
     public static void main(String[] args) {
         String trabalenguas = "trabalenguas";
@@ -32,6 +34,9 @@ public class EjemploStringMetodosArreglos {
         }
 
         System.out.println("extension = " + archivoArr[l-1]);
+
+        String nombre = "dario";
+
 
     }
 }
